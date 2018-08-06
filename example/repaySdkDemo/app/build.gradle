@@ -29,7 +29,7 @@ repositories{
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     //远程引用
-    //compile ('me.andpay.ma.sdk:repay:1.0.0')
+    //compile ('me.andpay.ma.sdk:repay:1.0.0@aar')
     compile(name:'repay-1.0.0',ext:'aar')
     compile 'org.jsoup:jsoup:1.8.3'
     compile 'com.squareup.okhttp:okhttp:2.3.0'
